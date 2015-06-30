@@ -3,6 +3,8 @@
 
 // DO NOT INCLUDE DIRECTLY
 
+#include <pthread.h> 
+
 bool Fl_Thread::create(thread_function function, void* arg)
 {
 	bool result = true;
